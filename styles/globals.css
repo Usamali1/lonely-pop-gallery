@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.main-container {
+  @apply max-w-[1440px] mx-auto px-6;
+}
+.sunset-text {
+  @apply font-gothic font-medium text-2xl md:text-[40px] pb-5 md:pb-12;
+}
+.input-message {
+  @apply border-2 max-w-[667px] w-full border-black  focus:rounded-sm focus:outline-none;
+}
+.make-post-spacing {
+  @apply 2xl:pt-[124px] xl:pt-24 lg:pt-16 md:pt-12 pt-8 2xl:pb-[217px] xl:pb-40 lg:pb-24 md:pb-16 pb-11;
+}
+.make-input-title {
+  @apply xl:text-2xl lg:text-xl text-lg font-medium;
+}
+.input-post {
+  @apply border-2 border-black px-4 max-w-[486px] w-full 2xl:min-h-[60px] min-h-[40px] focus:outline-none 2xl:mb-[30px]  2xl:mt-[30px] mt-2 xl:mb-5 mb-2 rounded-md;
+}
+.input-message-2 {
+  @apply border-2 px-4 py-4 max-w-[668px] w-full border-black  focus:rounded-sm focus:outline-none;
+}
+.file-input {
+  box-shadow: 0px 0px 10px 0px #00000033;
+
+  @apply flex flex-col items-center max-w-[250px] mt-[117px] border-[3px] border-black rounded-[10px] py-[17px] px-5;
+}
+
+
+/* Image Crop */
+.ant-upload.ant-upload-select-picture-card{
+  width: 350px;
+  height: 200px;
+}
+.ant-upload-list-picture-card-container{
+  width: 350px;
+  height: 200px;
+}
+.ant-btn.ant-btn-primary svg{
+  margin-top: -5px;
+}
